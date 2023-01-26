@@ -68,6 +68,11 @@ header .header-nav ul {
 
 ul.second-menu>li>a {
     padding: 0 0 0 17px;
+    transition: opacity 0.2s ease;
+}
+
+ul.second-menu>li>a:hover {
+    opacity: 0.8;
 }
 
 ul.second-menu>li:last-child {
@@ -143,6 +148,12 @@ button {
     color: white;
     border: solid 0px;
     cursor: pointer;
+    transition: color 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+button:hover {
+    background-color: white;
+    color: #0C0B0B; 
 }
 
 .next-main-slider-dots {
@@ -219,7 +230,7 @@ button {
     color: #7E7E7E;
 }
 
-.poster-now>img {
+.poster-now a>img {
     height: auto;
 }
 
@@ -497,6 +508,12 @@ nav.nav-mobile {
     font-size: 20px;
     margin-top: 57px;
     margin-bottom: 20px;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.login .form-container>form>input[type=submit]:hover {
+    background-color: white;
+    color: #0C0B0B;
 }
 
 .login .form-container>p:last-child {
